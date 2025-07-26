@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simran Gupta</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: thistle;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        h1 {
+            font-family: 'Algerian', sans-serif;
+            font-weight: 100;
+            color: black;
+            text-align: center;
+        }
+
+        /* Navigation Styling */
+        nav {
+            background-color: rgb(23, 18, 18);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: medium;
+            padding: 10px;
+            display: block;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: aqua;
+            border-radius: 5px;
+        }
+
+        /* Image Styling */
+        .image {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            display: block;
+            border-radius: 10px;
+            object-fit: cover;
+            margin: 10px auto; /* Centers image */
+        }
+
+        /* Paragraph Styling */
+        .para1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: justify;
+            color: black;
+            margin: 15px;
+            padding: 0 15px;
+        }
+
+        /* Responsive Styling */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav a {
+                font-size: 14px;
+                padding: 8px;
+                width: 100%;
+            }
+
+            .image {
+                width: 80%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1><u>About Me</u></h1>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="Simran.html">Home</a>
+        <a href="Me.html">Know Me More</a>
+        <a href="Contact.html">Contact Details</a>
+        <a href="Work.html">My Work</a>
+        <a href="Resume.html">My Resume</a>
+    </nav>
+
+    <!-- Profile Image -->
+    <img class="image" src="Simran.jpg" alt="Simran Gupta">
+
+    <!-- About Me Section -->
+    <p class="para1">Hello viewers! My name is Simran Gupta. <br> I am an <abbr title="Information Technology">IT</abbr> Engineer who graduated from <abbr title="Vellore Institute of Technology">VIT</abbr>, Vellore, Tamil Nadu, India.</p>
+
+    <p class="para1">I have a great passion for Web Development and Application Development. <br> I love learning new technologies.</p>
+
+    <p class="para1">I enjoy creating innovative and user-friendly web applications.</p>
+
+    <p class="para1">My curiosity for technology keeps me exploring different programming languages and frameworks.</p>
+
+</body>
+</html>
